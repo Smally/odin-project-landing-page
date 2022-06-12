@@ -1,0 +1,157 @@
+* {
+    background-color: #1F2937;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    color: #F9FAF8;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100px;
+
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+/* format links */
+.header a {
+    color: #F9FAF8;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.header-links {
+    justify-self: right;
+    margin-left: auto;
+}
+
+.section-one {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+}
+
+.title-block-left {
+    flex: 1;
+    color: #F9FAF8;
+
+}
+
+.title-block-left p {
+    color: #E5E7EB;
+
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    list-style: none;
+    border-radius: 5px;
+    border: #3882F6;
+}
+
+
+
+.title-block-right {
+    flex: 1;
+}
+
+/* set background colour for section two and all its children */ 
+.section-two, .section-two * {
+    background-color: #F9FAF8;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+}
+.placeholder {
+    height: 100px;
+    width: 100px;
+    background-color: #f2f5f8;
+    vertical-align: top;
+    display: inline-block;
+    border-style:solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    margin: 15px;
+    margin-bottom: 0px;
+    
+
+}
+
+.image p {
+    width: 100px;
+    color: #a5a7aa;
+    font-size: 0.7rem;
+    padding-top: 5px;
+    margin-bottom: 100px;
+    margin-top: 5px;
+
+}
+
+.section-three, .section-three *  {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.section-three .quote {
+    align-items: flex-start;
+}
+
+.section-three .refrence {
+    align-items: flex-end;
+}
+
+
+.section-four {
+    background-color: #F9FAF8;
+}
+
+.section-four {
+    padding: 100px;
+}
+
+.sign-up-banner, .sign-up-banner * {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    
+}
+
+.sign-up-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-banner button {
+    display: flex;
+    align-self: center;
+    border-style: solid;
+    border-color: white;
+
+}
