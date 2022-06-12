@@ -13,10 +13,18 @@
 
 }
 
+/* need to fix size of each section and use flex properly */ 
+
 .page {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 100%;
+}
+
+.page * {
+    
+    align-items: stretch;
+    height: 25%;
 }
 
 /* format links */
@@ -36,7 +44,9 @@
 .section-one {
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 70px;
     display: flex;
+    height: 25%;
 }
 
 .title-block-left {
@@ -71,6 +81,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 25%;
     
 
 }
@@ -109,7 +120,7 @@ button {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-
+    height: 25%;
     padding-left: 110px;
     padding-right: 110px;
 }
@@ -122,9 +133,13 @@ button {
     align-items: flex-end;
 }
 
+.section-three {
+    height: 25%;
+}
 
 .section-four {
     background-color: #F9FAF8;
+    height: 25%;
 }
 
 .section-four {
@@ -154,4 +169,11 @@ button {
     border-style: solid;
     border-color: white;
 
+}
+
+
+.footer h4 {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
 }
